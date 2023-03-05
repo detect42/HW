@@ -31,7 +31,6 @@ const string & Wine::label() const {
 }
 int Wine::sum()const{
      return this->info.second().sum();
-     return 0;
 }
 void Wine::Show() {
     cout<<"Wine:"<<lable<<endl;
@@ -40,4 +39,6 @@ void Wine::Show() {
         cout<<"    "<<info.first()[i]<<"    "<<info.second()[i]<<endl;
     }
 }
+
+// by Richard Wang
 
